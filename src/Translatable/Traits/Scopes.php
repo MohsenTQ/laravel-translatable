@@ -120,7 +120,8 @@ trait Scopes
                 if($selected==null){
                     return $query->where($this->getTranslationsTable().'.'.$this->getLocaleKey(), $this->locale());
                 }else{
-                    return $query->where($this->getTranslationsTable().'.'.$this->getLocaleKey(), $this->locale())->select('locale',$selected);
+                    array_push($selected,'locale');
+                    return $query->where($this->getTranslationsTable().'.'.$this->getLocaleKey(), $this->locale())->select($selected);
                 }
                 
             },

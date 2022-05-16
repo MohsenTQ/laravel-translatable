@@ -1,5 +1,5 @@
 {
-    "name": "astrotomic/laravel-translatable",
+    "name": "mohsenTQ/laravel-translatable",
     "description": "A Laravel package for multilingual models",
     "keywords": [
         "laravel",
@@ -7,21 +7,16 @@
         "language",
         "database"
     ],
-    "homepage": "https://astrotomic.info",
+    "homepage": "https://github.com/MohsenTQ",
     "license": "MIT",
     "authors": [
         {
-            "name": "Tom Witkowski",
-            "email": "gummibeer@astrotomic.info",
-            "homepage": "https://gummibeer.de",
+            "name": "Mohsen TQ",
+            "email": "mohsn@gmail.info",
+            "homepage": "https://github.com/MohsenTQ",
             "role": "Developer"
         },
-        {
-            "name": "Dimitrios Savvopoulos",
-            "email": "ds@dimsav.com",
-            "homepage": "http://dimsav.com",
-            "role": "Developer"
-        }
+       
     ],
     "require": {
         "php": ">=7.2",

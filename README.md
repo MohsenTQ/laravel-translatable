@@ -73,31 +73,11 @@ $post = Post::create($data);
 echo $post->translate('fr')->title; // Mon premier post
 ```
 
-## Tutorials
-
-- [How To Add Multilingual Support to Eloquent](https://laravel-news.com/how-to-add-multilingual-support-to-eloquent)
-- [How To Build An Efficient and SEO Friendly Multilingual Architecture For Your Laravel Application](https://mydnic.be/post/how-to-build-an-efficient-and-seo-friendly-multilingual-architecture-for-your-laravel-application)
-- [How to Add Multi-Language Models to Laravel QuickAdminPanel](https://quickadminpanel.com/blog/how-to-add-multi-language-models-to-laravel-quickadminpanel/)
-
-## Changelog
-
-Please see [CHANGELOG](docs/changelog.md) for more information on what has changed recently.
-
-## Contributing
-
-Please see [CONTRIBUTING](https://github.com/MohsenTQ/.github/blob/master/CONTRIBUTING.md) for details. You could also be interested in [CODE OF CONDUCT](https://github.com/MohsenTQ/.github/blob/master/CODE_OF_CONDUCT.md).
-
 ### Security
 
 If you discover any security related issues, please check [SECURITY](https://github.com/MohsenTQ/.github/blob/master/SECURITY.md) for steps to report it.
 
-## Credits
 
-- [Tom Witkowski](https://github.com/Gummibeer) *current maintainer*
-- [Dimitrios Savvopoulos](https://github.com/dimsav) *original author*
-- [David Llop](https://github.com/Lloople) *refactoring testsuite*
-- [Caneco](https://github.com/caneco) *artwork*
-- [All Contributors](../../contributors)
 
 ## Versions
 
@@ -107,12 +87,4 @@ If you discover any security related issues, please check [SECURITY](https://git
 | **v11.4 - v11.5** | `5.6.* / 5.7.* / 5.8.* / 6.*` | `>=7.1.3` |
 | **v11.0 - v11.3** | `5.6.* / 5.7.* / 5.8.*`       | `>=7.1.3` |
 
-## Treeware
 
-You're free to use this package, but if it makes it to your production environment I would highly appreciate you buying the world a tree.
-
-It’s now common knowledge that one of the best tools to tackle the climate crisis and keep our temperatures from rising above 1.5C is to [plant trees](https://www.bbc.co.uk/news/science-environment-48870920). If you contribute to my forest you’ll be creating employment for local families and restoring wildlife habitats.
-
-You can buy trees at [offset.earth/treeware](https://plant.treeware.earth/MohsenTQ/laravel-translatable)
-
-Read more about Treeware at [treeware.earth](https://treeware.earth)
